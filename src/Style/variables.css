@@ -1,0 +1,16 @@
+:root {
+  /* الألوان الأساسية */
+  --color-main: #fff;
+  --color-primary: #3d3935;
+  --color-section: #7b7b7b14;
+  --color-text-p: #5a585c;
+  --color-title: #222223;
+
+  /* الخطوط */
+  --font-main: "IBM Plex Sans Arabic", sans-serif;
+  --font-heading: "IBM Plex Sans Arabic", sans-serif;
+
+  /* الأحجام */
+  --container-width: 1200px;
+  --section-padding: 80px;
+}

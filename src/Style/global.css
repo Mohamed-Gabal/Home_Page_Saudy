@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap");
+@import "./variables.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-main);
+  color: #2C2C2C;
+  line-height: 1.6;
+  background-color: #d0d0ce;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* الروابط */
+a {
+  text-decoration: none;
+  color: #2C2C2C;
+  transition: color 0.3s;
+}
+a:hover {
+  color: var(--color-primary);
+}
+li {
+  list-style: none;
+}
+/* الحاويات */
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* العناوين */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-heading);
+  color: #2C2C2C;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 32px;
+}
+/* الأزرار */
+button {
+  background-color: var(--color-primary);
+  color: #2C2C2C;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}

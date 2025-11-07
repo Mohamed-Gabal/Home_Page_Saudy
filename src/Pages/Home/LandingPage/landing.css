@@ -1,0 +1,63 @@
+
+.landing {
+  padding: 100px 20px;
+  background-image: url("/Images/landing.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.landing_container {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.landing_item {
+  padding: 20px;
+  border-radius: 8px;
+}
+.landing_title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* ✅ الشاشات المتوسطة (تابلت) */
+@media (max-width: 992px) {
+  .landing {
+    padding: 80px 20px;
+  }
+  .landing_container {
+    height: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  .landing_title {
+    font-size: 30px;
+  }
+}
+
+/* ✅ الشاشات الصغيرة (موبايل) */
+@media (max-width: 768px) {
+  .landing {
+    padding: 60px 15px;
+  }
+  .landing_title {
+    font-size: 25px;
+    line-height: 1.4;
+  }
+}
+/* ✅ الموبايل الصغير جدًا */
+@media (max-width: 480px) {
+  .landing {
+    padding: 50px 12px;
+  }
+  .landing_title {
+    font-size: 20px;
+  }
+}

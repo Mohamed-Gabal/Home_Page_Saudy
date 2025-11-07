@@ -1,0 +1,65 @@
+.section_page {
+  direction: rtl;
+  text-align: center;
+  padding: 60px 20px;
+  color: #2C2C2C;
+}
+.section_page_title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #2C2C2C;
+  line-height: 1.6;
+}
+.my_title {
+  color: #2C2C2C;
+  width: 60%;
+  margin: 0 auto 15px;
+}
+.section_page_btn {
+  background-color: #d0d0ce;
+  color: #2C2C2C;
+  border: none;
+  padding: 14px 45px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.section_page_btn_svg {
+  margin-left: 10px;
+  color: #2C2C2C;
+  font-size: 20px;
+}
+/* 🌍 ريسبونسف */
+@media (max-width: 992px) {
+  .my_title {
+    width: 80%;
+  }
+  .section_page {
+    padding: 80px 15px;
+  }
+  .section_page_title {
+    font-size: 26px;
+  }
+  .section_page_btn {
+    padding: 12px 35px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .my_title {
+    width: 100%;
+  }
+  .section_page {
+    padding: 60px 10px;
+  }
+  .section_page_title {
+    font-size: 22px;
+  }
+  .section_page_btn {
+    padding: 10px 30px;
+    font-size: 15px;
+  }
+}

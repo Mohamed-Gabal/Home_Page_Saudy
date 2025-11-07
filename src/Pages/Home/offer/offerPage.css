@@ -1,0 +1,191 @@
+
+.offer_page {
+  direction: rtl;
+  padding: 60px 20px;
+  text-align: center;
+}
+.offer_page_container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+.offer_page_top h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.offer_page_top p {
+  color: #2C2C2C;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+.offer_page_box {
+  background-color: #d0d0ce;
+  border-radius: 12px;
+  padding: 40px;
+  border: 1px solid #92A7B4;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  text-align: right;
+}
+.offer_page_botten_main h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.offer_page_botten_main p {
+  font-size: 15px;
+  color: #2C2C2C;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #D0D0D0;
+  padding-bottom: 10px;
+}
+.offer_page_group {
+  margin-bottom: 25px;
+}
+.offer_page_group label {
+  display: block;
+  font-weight: 600;
+  color: #2C2C2C;
+  margin-bottom: 10px;
+}
+.offer_page_checkboxes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.offer_page_checkboxes label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #2C2C2C;
+  font-size: 15px;
+  cursor: pointer;
+}
+.offer_page_checkboxes input[type="radio"] {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  position: relative;
+  transition: all 0.3s ease;
+}
+.offer_page_checkboxes input[type="radio"]:checked {
+  background-color: #AE6E2ECC;
+  border-color: var(--color-main);
+}
+.offer_page_group input[type="email"],
+.offer_page_group input[type="tel"] {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #92A7B4;
+  background-color: #d0d0ce;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  text-align: right;
+  transition: 0.3s;
+}
+.offer_page_group input:focus {
+  border-color: #000;
+}
+.offer_page_btn {
+  width: 100%;
+  background-color: #d0d0ce;
+  color: #2C2C2C;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.offer_page_btn:hover {
+   background-color: #ddd;
+}
+.offer_page_note {
+  text-align: center;
+  font-size: 13px;
+  color: 2C2C2C;
+  margin-top: 20px;
+}
+/* 🎯 الريسبونسف */
+
+/* شاشات متوسطة (تابلت أفقي أو لابتوب صغير) */
+@media (max-width: 992px) {
+  .offer_page {
+    padding: 40px 15px;
+  }
+  .offer_page_top h2 {
+    font-size: 26px;
+  }
+  .offer_page_box {
+    padding: 30px;
+  }
+  .offer_page_group label {
+    font-size: 15px;
+  }
+  .offer_page_checkboxes label {
+    font-size: 14px;
+  }
+}
+
+/* شاشات صغيرة (تابلت عمودي أو موبايل كبير) */
+@media (max-width: 768px) {
+  .offer_page {
+    padding: 30px 10px;
+  }
+  .offer_page_container {
+    width: 95%;
+  }
+  .offer_page_top h2 {
+    font-size: 24px;
+  }
+  .offer_page_top p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .offer_page_box {
+    padding: 25px 20px;
+  }
+  .offer_page_botten_main h3 {
+    font-size: 18px;
+  }
+  .offer_page_group {
+    margin-bottom: 20px;
+  }
+  .offer_page_btn {
+    font-size: 15px;
+    padding: 13px;
+  }
+}
+
+/* موبايل صغير جدًا */
+@media (max-width: 480px) {
+  .offer_page_top h2 {
+    font-size: 22px;
+  }
+  .offer_page_box {
+    padding: 20px 15px;
+  }
+  .offer_page_botten_main h3 {
+    font-size: 17px;
+  }
+  .offer_page_botten_main p {
+    font-size: 13px;
+  }
+  .offer_page_group label {
+    font-size: 14px;
+  }
+  .offer_page_checkboxes label {
+    font-size: 13.5px;
+    gap: 6px;
+  }
+  .offer_page_group input {
+    font-size: 14px;
+  }
+  .offer_page_btn {
+    font-size: 14px;
+    padding: 12px;
+  }
+  .offer_page_note {
+    font-size: 12px;
+  }
+}
